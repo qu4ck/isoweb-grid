@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family	: Arial,sans-serif;
+    font-size	: 13px;
+    font-style	: normal;
+    font-weight	: normal;
+    line-height	: 21px;
+}
+table {
+  border	: solid 1px #D5D5D5;
+  border-collapse: collapse;
+  width:100%; 
+}
+
+table tr {display: table-row;}
+table td {
+	border:1px solid #D5D5D5;
+	font-size:12px;
+	padding:3px 2px;
+}
+
+table th {
+	background-color:#EEE;
+	border:1px solid #D5D5D5;
+	font-size:12px;
+	line-height:20px;
+	padding: 3px 2px;
+	text-align:left;
+}

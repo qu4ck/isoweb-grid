@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>isoweb Mygrid</title>
+		<link href="assets/style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="assets/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/isoweb.grid.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#testing").isoGrid({
+					  url		: "proses.php"
+					 ,colModel	: [
+							 {display : 'Nip.', name : 'nip', width : 50}
+							,{display : 'Nama', name : 'nama', width : 100}
+							,{display : 'Alamat', name : 'alamat', width : 150}
+							,{display : 'Kelamin', name : 'telp', width : 50}
+						]
+					 ,height	: 100						
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="testing"></div>
+	</body>
+</html>
